@@ -102,6 +102,8 @@ void graphy_fill_line(u_int32_t *pixels, size_t pixels_width, size_t pixels_heig
     }
 }
 
+
+
 typedef int Errno;
 #define return_defer(value) do { result = (value); goto defer; } while (0)
 
